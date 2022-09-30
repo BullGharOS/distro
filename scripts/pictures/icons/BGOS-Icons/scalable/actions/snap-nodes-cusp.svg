@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }</style>
+ </defs>
+ <g transform="translate(1,1)" stroke-width=".4">
+  <path class="ColorScheme-Text" d="m6 4v1h10v-1zm-2 2v10h1v-10zm13 0v10h1v-10zm-11 11v1h10v-1z" color="#eff0f1" fill="#eae6d8" stroke="#a0968c"/>
+  <path class="ColorScheme-Highlight" d="m2 2v4h4v-4zm14 0v4h4v-4zm-13 1h2v2h-2zm14 0h2v2h-2zm-15 13v4h4v-4zm14 0v4h4v-4zm-13 1h2v2h-2zm14 0h2v2h-2z" color="#3daee9" fill="#b40000" stroke="#640000"/>
+ </g>
+</svg>

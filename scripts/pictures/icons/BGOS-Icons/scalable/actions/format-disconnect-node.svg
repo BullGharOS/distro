@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="31.709" height="29.993" version="1.1" viewBox="0 0 31.709 29.993" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(.24312 0 0 .32744 .111 -5.1126)" fill-rule="evenodd">
+  <g fill="#eae6d8" stroke="#a0968c" stroke-width="2.481">
+   <rect x="-.43704" y="28.71" width="28.543" height="4.0307" stroke-miterlimit="0" style="paint-order:stroke fill markers"/>
+   <rect x=".1825" y="93.34" width="23.798" height="3.8533" style="paint-order:stroke fill markers"/>
+   <rect transform="scale(-1,1)" x="-129.09" y="93.664" width="24.999" height="3.8529" style="paint-order:stroke fill markers"/>
+  </g>
+  <path d="m80.41 64.407-15.037 16.283-14.963-16.329 12.007 2.5173 0.02852-21.494 5.9513-2e-3 0.01113 21.464z" fill="#009600" opacity=".998" stroke="#006400" stroke-width="3.5442" style="paint-order:stroke fill markers"/>
+  <g stroke-miterlimit="0">
+   <rect x="53.564" y="28.664" width="20.114" height="3.9356" fill="#eae6d8" fill-rule="evenodd" stroke="#a0968c" stroke-width="2.481" style="paint-order:stroke fill markers"/>
+   <ellipse cx="41.879" cy="29.788" rx="10.956" ry="7.7784" fill="none" stroke="#009600" stroke-width="7.0885" style="paint-order:stroke fill markers"/>
+   <rect transform="scale(-1,1)" x="-129.24" y="28.487" width="30.619" height="3.9722" fill="#eae6d8" fill-rule="evenodd" stroke="#a0968c" stroke-width="2.481" style="paint-order:stroke fill markers"/>
+  </g>
+  <g fill="none" stroke-miterlimit="0" stroke-width="7.0885">
+   <ellipse transform="scale(-1,1)" cx="-84.343" cy="29.65" rx="10.956" ry="7.7784" stroke="#009600" style="paint-order:stroke fill markers"/>
+   <ellipse cx="35.087" cy="95.547" rx="10.956" ry="7.7784" stroke="#b40000" style="paint-order:stroke fill markers"/>
+   <ellipse cx="93.689" cy="95.476" rx="10.956" ry="7.7784" stroke="#b40000" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+</svg>

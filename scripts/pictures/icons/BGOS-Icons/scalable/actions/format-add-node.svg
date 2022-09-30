@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="38" height="38" version="1.1" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(.27315 -70.83)" fill-rule="evenodd">
+  <rect x="1.7932" y="80.692" width="8.3985" height="1.3578" fill="#eae6d8" stroke="#a0968c" stroke-width=".7" style="paint-order:stroke fill markers"/>
+  <path d="m21 87.912v7.0881h-6.3709v2.2141h6.3709v7.3034h1.9674v-7.3034h6.4171v-2.2141h-6.4171v-7.0881z" fill="#009600" fill-rule="evenodd" opacity=".998" stroke="#006400" style="paint-order:stroke fill markers"/>
+  <rect x="15.932" y="80.687" width="19.487" height="1.3305" fill="#eae6d8" fill-rule="evenodd" stroke="#a0968c" stroke-miterlimit="0" stroke-width=".66952" style="paint-order:stroke fill markers"/>
+  <circle cx="13.041" cy="81.378" r="2.3751" fill="none" stroke="#b40000" stroke-width="1.5" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

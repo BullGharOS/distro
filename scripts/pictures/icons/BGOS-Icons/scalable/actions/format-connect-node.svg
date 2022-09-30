@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="32" height="29.431" version="1.1" viewBox="0 0 32 29.431" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(.45657 -80.103)" fill-rule="evenodd">
+  <rect transform="scale(1,-1)" x="-.1281" y="-84.222" width="5.7966" height="1.3431" fill="#eae6d8" stroke="#a0968c" stroke-miterlimit="0" stroke-width=".65693" style="paint-order:stroke fill markers"/>
+  <rect transform="scale(-1)" x="-31.233" y="-84.289" width="6.0904" height="1.3429" fill="#eae6d8" stroke="#a0968c" stroke-miterlimit="0" stroke-width=".65712" style="paint-order:stroke fill markers"/>
+  <circle cx="8.657" cy="83.344" r="2.1399" fill="none" stroke="#b40000" stroke-width="1.7201" style="paint-order:stroke fill markers"/>
+  <circle cx="22.261" cy="83.242" r="2.1399" fill="none" stroke="#b40000" stroke-width="1.7201" style="paint-order:stroke fill markers"/>
+  <g fill="#eae6d8" fill-rule="evenodd" stroke="#a0968c">
+   <rect transform="scale(-1)" x="-31.266" y="-106.99" width="8.5071" height="1.3138" stroke-miterlimit="0" stroke-width=".68623" style="paint-order:stroke fill markers"/>
+   <rect transform="scale(-1)" x="-7.4041" y="-106.99" width="7.6121" height="1.3204" stroke-miterlimit=".2" stroke-width=".67959" style="paint-order:stroke fill markers"/>
+   <rect transform="scale(-1)" x="-17.843" y="-107.02" width="5.2079" height="1.34" stroke-miterlimit="0" stroke-width=".65996" style="paint-order:stroke fill markers"/>
+  </g>
+  <circle cx="10.279" cy="106.41" r="2.1399" fill="none" stroke="#009600" stroke-width="1.7201" style="paint-order:stroke fill markers"/>
+  <circle cx="19.813" cy="106.35" r="2.1399" fill="none" stroke="#009600" stroke-width="1.7201" style="paint-order:stroke fill markers"/>
+ </g>
+ <path d="m19.486 14.611-3.6805 5.3316-3.6624-5.3467 2.9389 0.82425 7e-3 -7.0379 1.4567-6.54e-4 0.0027 7.0281z" fill="#009600" fill-rule="evenodd" opacity=".998" stroke="#006400" style="paint-order:stroke fill markers"/>
+</svg>

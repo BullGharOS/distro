@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#eff0f1;
+      }</style>
+ </defs>
+ <g transform="translate(1,1)">
+  <path d="m11 3a3 3 0 0 0-3 3h-3v13h8v-1h-7v-11h2v1.0879a1.5 1.5 0 0 0-1 1.4121 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1-1.4121v-1.0879h4v1.0879a1.5 1.5 0 0 0-1 1.4121 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-1-1.4121v-1.0879h2v6h1v-7h-3a3 3 0 0 0-3-3z" color="#eff0f1" fill="#eae6d2" stroke="#a0968c" stroke-width=".4"/>
+  <g fill="#b40000">
+   <path d="m11 4a2 2 0 0 1 2 2h-4a2 2 0 0 1 2-2z" color="#eff0f1" fill="#b40000" stroke="#640000" stroke-width=".4"/>
+   <path d="M 8.5,9 A 0.5,0.5 0 0 1 9,9.5 0.5,0.5 0 0 1 8.5,10 0.5,0.5 0 0 1 8,9.5 0.5,0.5 0 0 1 8.5,9 Z" color="#eff0f1"/>
+   <path d="m13.5 9a0.5 0.5 0 0 1 0.5 0.5 0.5 0.5 0 0 1-0.5 0.5 0.5 0.5 0 0 1-0.5-0.5 0.5 0.5 0 0 1 0.5-0.5z" color="#eff0f1"/>
+   <path d="m14.834 14-0.83398 0.83398 1.666 1.666-1.666 1.666 0.83398 0.83398 1.666-1.666 1.666 1.666 0.83398-0.83398-1.666-1.666 1.666-1.666-0.83398-0.83398-1.666 1.666z" fill="#b40000" stroke="#640000" stroke-width=".4"/>
+  </g>
+ </g>
+</svg>

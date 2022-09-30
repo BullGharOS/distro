@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }</style>
+ </defs>
+ <g transform="translate(1,1)">
+  <path class="ColorScheme-Text" d="m6.75 3c-2.4198 0-3.9738 3.0594-4.2031 7h0.99219c0.18843-3.3878 1.3235-6 3.2109-6s3.4333 2.6122 3.6953 6h0.99609c-0.2953-3.9406-2.2716-7-4.6914-7zm3.791 9c0.29904 3.9976 2.3166 6.9968 4.709 7 2.3916 0 3.951-3.0036 4.25-7h-1c-0.26606 3.4408-1.3876 5.9958-3.25 6-1.8624 0-3.441-2.5592-3.707-6z" color="#eff0f1" fill="#eae6d8" stroke="#a0968c" stroke-width=".4"/>
+  <g fill="none" stroke="#b40000" stroke-width="1.5">
+   <circle cx="2.9613" cy="11.024" r="1.5372" style="paint-order:stroke fill markers"/>
+   <circle cx="10.955" cy="11.09" r="1.5372" style="paint-order:stroke fill markers"/>
+   <circle cx="19.328" cy="11.045" r="1.5372" style="paint-order:stroke fill markers"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }</style>
+ </defs>
+ <g>
+  <g>
+   <path d="m3.998 3v5.0293l-1.3438-1.4375-0.65625 0.6875 2.3125 2.5 0.1875 0.21875 0.18945-0.21875 2.3125-2.5-0.65625-0.6875-1.3438 1.4375h-0.00195v-5.0293z" fill="#009600" stroke="#006400" stroke-width=".4"/>
+   <path d="m9 3-3 3h5l3-3z" fill="#eae6d8" stroke="#a0968c" stroke-width=".6"/>
+   <path d="m5 11-3 3h9l3-3z" fill="#eae6d8" stroke="#a0968c" stroke-width=".6"/>
+  </g>
+  <path class="ColorScheme-Highlight" d="m9 7-3 3h5l3-3z" fill="#009600" stroke="#006400"/>
+ </g>
+</svg>
