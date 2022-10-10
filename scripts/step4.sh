@@ -65,3 +65,4 @@ sudo xorriso \
 
 #End step 4
 echo "End step 4"
+echo "try ../bullgharos.iso"
