@@ -54,6 +54,35 @@ StartupNotify=true
 X-GNOME-Autostart-enabled=true
 EOF
 
+
+sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/lsb-release
+sudo cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/lsb-release
+DISTRIB_ID=Bullgharos
+DISTRIB_RELEASE=1
+DISTRIB_CODENAME=focal
+DISTRIB_DESCRIPTION="BullGharOS 1 LTS"
+EOF
+
+sudo chmod 644 $HOME/live-ubuntu-from-scratch/chroot/etc/lsb-release
+
+sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/os-release
+sudo cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/os-release
+NAME="Bullgharos"
+VERSION="1 LTS (Focal Fossa)"
+ID=Bullgharos
+ID_LIKE=debian
+PRETTY_NAME="BullGharOS LTS"
+VERSION_ID="1"
+HOME_URL="https://www.bullgharos.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+EOF
+
+sudo chmod 644 $HOME/live-ubuntu-from-scratch/chroot/etc/os-release
+
 sudo touch $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.set-theme.sh
 
 sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.set-theme.sh
