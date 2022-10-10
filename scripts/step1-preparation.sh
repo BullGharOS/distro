@@ -2,7 +2,7 @@
 
 sudo cp ./pictures/backgrounds/default-theme-bgos.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/backgrounds/default-theme-bgos.png
 
-sudo cp ./pictures/backgrounds/plymouth_background_future.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/backgrounds/mate/desktop/bgos.png
+sudo cp ./pictures/backgrounds/plymouth_background_future_base.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/backgrounds/mate/desktop/bgos.png
 
 sudo cp ./pictures/backgrounds/Float-into-BGOS.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/backgrounds/warty-final-ubuntu.png 
 
@@ -36,10 +36,13 @@ sudo cp -rf ./pictures/logos/BGOS.png $HOME/live-ubuntu-from-scratch/chroot/usr/
 
 sudo cp -rf ./pictures/logos/BGOS.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/plymouth/debian.png
 
+sudo cp /usr/bin/neofetch $HOME/live-ubuntu-from-scratch/chroot/usr/bin/neofetch
+
 sudo mkdir -p $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart
 sudo touch $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
+sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
 
-cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
+sudo cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
 [Desktop Entry]
 Name=MATE_autostart
 Comment=MATE_autostart: invokes script to start programs at login to MATE
@@ -53,6 +56,8 @@ EOF
 
 sudo touch $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.set-theme.sh
 
+sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.set-theme.sh
+
 cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.set-theme.sh
 #!/bin/bash
 
@@ -63,7 +68,9 @@ gsettings set org.mate.interface icon-theme 'BGOS-Icons'
 sed -i 's/\/bin\/bash ~\/\.set-theme.sh/#/g' ~/.bashrc
 rm -rf ~/.config/autostart/setuptheme.desktop
 exit 0
+EOF
 
 
 #End step 1 Preparation
 echo "End step 1 Preparation"
+
