@@ -101,6 +101,8 @@ apt-get install -y \
     grub-pc \
     grub-pc-bin \
     grub2-common \
+    linux-firmware \
+    epiphany \
     spectrwm \
     tint2
 
