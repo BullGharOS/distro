@@ -99,6 +99,8 @@ rm -rf ~/.config/autostart/setuptheme.desktop
 exit 0
 EOF
 
+sudo cp desktop-env/bin/bullgharos.sh $HOME/live-ubuntu-from-scratch/chroot/bin
+sudo cp desktop-env/usr/share/xsessions/bullgharos_de.desktop $HOME/live-ubuntu-from-scratch/chroot/usr/share/xsessions/
 
 #End step 1 Preparation
 echo "End step 1 Preparation"

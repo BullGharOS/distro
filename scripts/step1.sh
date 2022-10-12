@@ -100,7 +100,9 @@ apt-get install -y \
     grub-gfxpayload-lists \
     grub-pc \
     grub-pc-bin \
-    grub2-common
+    grub2-common \
+    spectrwm \
+    tint2
 
 apt-get install -y --no-install-recommends linux-generic
 

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=BullGharOS DE
+Comment=BullGharOS desktop environment
+Exec=/bin/bullgharos_de.sh
+Type=Application
