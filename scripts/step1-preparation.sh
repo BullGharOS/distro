@@ -101,6 +101,8 @@ EOF
 
 sudo cp desktop-env/bin/bullgharos.sh $HOME/live-ubuntu-from-scratch/chroot/bin
 sudo cp desktop-env/usr/share/xsessions/bullgharos_de.desktop $HOME/live-ubuntu-from-scratch/chroot/usr/share/xsessions/
+sudo cp desktop-env/.spectrwm.conf $HOME/live-ubuntu-from-scratch/chroot/etc/skel/
+sudo cp -rf desktop-env/.tint2f $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config
 
 #End step 1 Preparation
 echo "End step 1 Preparation"
