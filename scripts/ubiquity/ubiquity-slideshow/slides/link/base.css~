@@ -180,7 +180,7 @@ Inner space is 224px wide.
 .whitebar {
 	height: 90px;
 	margin-top: 200px;
-	margin-left: -80px;
+	margin-left: 0px;
 	width:100%;
 	background-repeat: no-repeat;
 	background-position: center;

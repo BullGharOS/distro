@@ -20,6 +20,7 @@
     <div id="wrapper">
       <div id="slideshow">
         <div><a href="01_welcome.html"></a></div>
+        <div><a href="02_about.html"></a></div>
         <div><a href="03_getting_started.html"></a></div>
         <div><a href="04_software.html"></a></div>
         <div><a href="05_tweak.html"></a></div>
