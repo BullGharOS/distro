@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MATE_autostart
+Comment=MATE_autostart: invokes script to start programs at login to MATE
+Exec=mate-terminal
+Icon=mate-desktop
+Terminal=false
+Type=Application
+StartupNotify=true
+X-GNOME-Autostart-enabled=true

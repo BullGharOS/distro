@@ -30,6 +30,10 @@ sudo cp -rf ./pictures/backgrounds/default-theme-bgos.png $HOME/live-ubuntu-from
 
 sudo cp -rf ./pictures/backgrounds/default-theme-bgos.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/plymouth/themes/ubuntu-mate-logo/ubuntu-mate-logo.png
 
+sudo mkdir -p $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/login/
+sudo mkdir -p $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/plymouth/
+sudo mkdir -p $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/plymouth/
+
 sudo cp -rf ./pictures/backgrounds/background.svg $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/login/background.svg
 
 sudo cp -rf ./pictures/logos/BGOS.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/desktop-base/active-theme/plymouth/logo.png
@@ -38,22 +42,7 @@ sudo cp -rf ./pictures/logos/BGOS.png $HOME/live-ubuntu-from-scratch/chroot/usr/
 
 sudo cp /usr/bin/neofetch $HOME/live-ubuntu-from-scratch/chroot/usr/bin/neofetch
 
-sudo mkdir -p $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart
-sudo touch $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
-sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
-
-sudo cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/autostart/setuptheme.desktop
-[Desktop Entry]
-Name=MATE_autostart
-Comment=MATE_autostart: invokes script to start programs at login to MATE
-Exec=mate-terminal
-Icon=mate-desktop
-Terminal=false
-Type=Application
-StartupNotify=true
-X-GNOME-Autostart-enabled=true
-EOF
-
+sudo cp -r ./autostart $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config/
 
 sudo chmod 777 $HOME/live-ubuntu-from-scratch/chroot/etc/lsb-release
 sudo cat <<EOF > $HOME/live-ubuntu-from-scratch/chroot/etc/lsb-release
@@ -99,10 +88,10 @@ rm -rf ~/.config/autostart/setuptheme.desktop
 exit 0
 EOF
 
-sudo cp desktop-env/bin/bullgharos.sh $HOME/live-ubuntu-from-scratch/chroot/bin
+sudo cp desktop-env/bin/bullgharos_de.sh $HOME/live-ubuntu-from-scratch/chroot/bin/
 sudo cp desktop-env/usr/share/xsessions/bullgharos_de.desktop $HOME/live-ubuntu-from-scratch/chroot/usr/share/xsessions/
 sudo cp desktop-env/.spectrwm.conf $HOME/live-ubuntu-from-scratch/chroot/etc/skel/
-sudo cp -rf desktop-env/.tint2f $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config
+sudo cp -rf desktop-env/tint2 $HOME/live-ubuntu-from-scratch/chroot/etc/skel/.config
 
 #End step 1 Preparation
 echo "End step 1 Preparation"

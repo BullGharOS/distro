@@ -65,4 +65,4 @@ sudo xorriso \
 
 #End step 4
 echo "End step 4"
-echo "try ../bullgharos.iso"
+echo "try $HOME/live-ubuntu-from-scratch/bullgharos.iso"
