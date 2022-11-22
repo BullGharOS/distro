@@ -40,15 +40,15 @@ insmod all_video
 set default="0"
 set timeout=30
 
-#menuentry "Try Bullgharos without installing" {
-#   linux /casper/vmlinuz boot=casper nopersistent toram quiet splash ---
-#   initrd /casper/initrd
-#}
-
-menuentry "Install Bullgharos" {
-   linux /casper/vmlinuz boot=casper only-ubiquity quiet splash ---
+menuentry "Try Bullgharos without installing" {
+   linux /casper/vmlinuz boot=casper nopersistent toram quiet splash ---
    initrd /casper/initrd
 }
+
+#menuentry "Install Bullgharos" {
+#   linux /casper/vmlinuz boot=casper only-ubiquity quiet splash ---
+#   initrd /casper/initrd
+#}
 
 menuentry "Check disc for defects" {
    linux /casper/vmlinuz boot=casper integrity-check quiet splash ---
@@ -59,13 +59,13 @@ menuentry "Test memory Memtest86+ (BIOS)" {
    linux16 /install/memtest86+
 }
 
-menuentry "Test memory Memtest86 (UEFI, long load time)" {
-   insmod part_gpt
-   insmod search_fs_uuid
-   insmod chain
-   loopback loop /install/memtest86
-   chainloader (loop,gpt1)/efi/boot/BOOTX64.efi
-}
+#menuentry "Test memory Memtest86 (UEFI, long load time)" {
+#   insmod part_gpt
+#   insmod search_fs_uuid
+#   insmod chain
+#   loopback loop /install/memtest86
+#   chainloader (loop,gpt1)/efi/boot/BOOTX64.efi
+#}
 EOF
 
 #End step 2
