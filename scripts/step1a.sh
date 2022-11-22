@@ -81,7 +81,13 @@ apt-get install -y \
     grub-pc-bin \
     grub2-common \
     linux-firmware \
-    epiphany \
+    epiphany-browser \
+    bcmwl-kernel-source \
+    broadcom-sta-common \
+    broadcom-sta-source \
+    b43-fwcutter \
+    firmware-b43-installer \
+    network-manager \
     spectrwm \
     tint2
 
