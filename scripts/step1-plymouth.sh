@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 sudo cp -rf ./plymouth/* $HOME/live-ubuntu-from-scratch/chroot/usr/share/plymouth/themes/ubuntu-mate-logo
 exit 0

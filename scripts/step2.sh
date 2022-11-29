@@ -1,4 +1,6 @@
 #!/bin/bash
+#export HOME=~/
+
 #Create the CD image directory and populate it
 #1. Access build directory
 cd $HOME/live-ubuntu-from-scratch
@@ -40,15 +42,20 @@ insmod all_video
 set default="0"
 set timeout=30
 
-menuentry "Try Bullgharos without installing" {
-   linux /casper/vmlinuz boot=casper nopersistent toram quiet splash ---
+#menuentry "Try Bullgharos without installing" {
+#   linux /casper/vmlinuz boot=casper nopersistent toram quiet splash ---
+#   initrd /casper/initrd
+#}
+
+menuentry "Install Bullgharos Ubiquity" {
+   linux /casper/vmlinuz boot=casper only-ubiquity quiet splash ---
    initrd /casper/initrd
 }
 
-#menuentry "Install Bullgharos" {
-#   linux /casper/vmlinuz boot=casper only-ubiquity quiet splash ---
-#   initrd /casper/initrd
-#}
+menuentry "Install Bullgharos Calamares" {
+   linux /casper/vmlinuz boot=casper calamares quiet splash ---
+   initrd /casper/initrd
+}
 
 menuentry "Check disc for defects" {
    linux /casper/vmlinuz boot=casper integrity-check quiet splash ---

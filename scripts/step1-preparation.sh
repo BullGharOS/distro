@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 sudo cp ./pictures/backgrounds/default-theme-bgos.png $HOME/live-ubuntu-from-scratch/chroot/usr/share/backgrounds/default-theme-bgos.png
 

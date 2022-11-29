@@ -60,55 +60,68 @@ ln -s /bin/true /sbin/initctl
 #apt-get -y upgrade
 
 #9. Install packages needed for Live System
-apt-get install -y \
-    sudo \
-    ubuntu-mate-desktop \
-    mate-backgrounds \
-    casper \
-    lupin-casper \
-    discover \
-    laptop-detect \
-    os-prober \
-    network-manager \
-    resolvconf \
-    net-tools \
-    wireless-tools \
-    wpagui \
-    locales \
-    grub-common \
-    grub-gfxpayload-lists \
-    grub-pc \
-    grub-pc-bin \
-    grub2-common \
-    linux-firmware \
-    epiphany-browser \
-    bcmwl-kernel-source \
-    broadcom-sta-common \
-    broadcom-sta-source \
-    b43-fwcutter \
-    firmware-b43-installer \
-    network-manager \
-    spectrwm \
-    tint2
+#apt-get install -y \
+#    sudo \
+#    ubuntu-minimal \
+#    casper \
+#    lupin-casper \
+#    discover \
+#    laptop-detect \
+#    os-prober \
+#    network-manager \
+#    resolvconf \
+#    net-tools \
+#    wireless-tools \
+#    wpagui \
+#    locales \
+#    grub-common \
+#    grub-gfxpayload-lists \
+#    grub-pc \
+#    grub-pc-bin \
+#    grub2-common \
+#    linux-firmware \
+#    epiphany-browser \
+#    spectrwm \
+#    tint2
+    
+#apt-get install -y \
+#    mate-backgrounds \
+#    mate-indicator-applet \
+#    bcmwl-kernel-source \
+#    broadcom-sta-common \
+#    broadcom-sta-source \
+#    b43-fwcutter \
+#    firmware-b43-installer \
+#    wpasupplicant \
+#    wpagui 
 
+#apt-get install -y libqt5core5a \
+#    libqt53dcore5
+    
 apt-get install -y --no-install-recommends linux-generic
 
-#10. Graphical installer
+#10. Graphical installer Ubiquity
 apt-get install -y \
    ubiquity \
    ubiquity-casper \
    ubiquity-frontend-gtk \
    ubiquity-slideshow-ubuntu-mate \
-   ubiquity-ubuntu-artwork
+   ubiquity-ubuntu-artwork --no-install-recommends
+   
+#10.1 Graphical installer Calamares
+   apt-get install -y \
+   calamares \
+   calamares-settings-lubuntu --no-install-recommends
+   
    
 #11. Install window manager
-apt-get install -y \
-    plymouth-theme-ubuntu-mate-logo \
-    ubuntu-mate-desktop \
-    ubuntu-mate-wallpapers \
-    gnome-tweaks
+#apt-get install -y \
+#    plymouth-theme-ubuntu-mate-logo \
+#    ubuntu-mate-desktop \
+#    ubuntu-mate-wallpapers \
+#    gnome-tweaks --no-install-recommends
     
-apt-get remove ubuntu-session
+#apt-get remove ubuntu-session
     
 #12. Install useful applications
 apt-get install -y \
@@ -118,13 +131,13 @@ apt-get install -y \
     curl \
     vim \
     nano \
-    less
+    less --no-install-recommends
     
 #13. Install joe editor
 apt-get install -y joe
 
 #14. Then update the package cache and install the package using
-apt-get update
+#apt-get update
 
 #apt-get install -y code
 
@@ -169,18 +182,6 @@ truncate -s 0 /etc/machine-id
 rm /sbin/initctl
 
 dpkg-divert --rename --remove /sbin/initctl
-
-cat <<EOF > /etc/skel/.config/autostart/setuptheme.desktop
-[Desktop Entry]
-Name=MATE_autostart
-Comment=MATE_autostart: invokes script to start programs at login to MATE
-Exec=~/.test.sh
-Icon=mate-desktop
-Terminal=false
-Type=Application
-StartupNotify=true
-X-GNOME-Autostart-enabled=true
-EOF
 
 #23. Clean up
 apt-get clean

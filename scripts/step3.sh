@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 #Create manifest
 #1. Access build directory

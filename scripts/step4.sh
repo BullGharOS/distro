@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 #Create ISO Image for a LiveCD (BIOS + UEFI)
 #1. Access image directory

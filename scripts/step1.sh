@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 #Prerequisites (GNU/Linux Debian/Ubuntu)
 

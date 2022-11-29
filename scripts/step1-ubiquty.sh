@@ -1,4 +1,5 @@
 #!/bin/bash
+#export HOME=~/
 
 find ./ubiquity -type f -not -path '*/\.*' -exec sed  -i -- 's/Ubuntu/Bullgharos/g' {} +
 
